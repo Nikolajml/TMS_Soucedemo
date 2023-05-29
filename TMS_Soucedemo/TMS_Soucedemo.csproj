@@ -26,7 +26,6 @@
   <ItemGroup>
     <Folder Include="Core\Wrappers\" />
     <Folder Include="Soucedemo\BaseEntities\" />
-    <Folder Include="Soucedemo\Tests\" />
     <Folder Include="Soucedemo\Pages\" />
   </ItemGroup>
 

@@ -20,7 +20,7 @@ namespace Core.Utilites.Configuration
             var basePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var builder = new ConfigurationBuilder()
                 .SetBasePath(basePath)
-                .AddJsonFile("appsettings.json");
+                .AddJsonFile("appettings.json");
 
             var appSettingFiles = Directory.EnumerateFiles(basePath ?? string.Empty, "appsettings.*.json");
 
