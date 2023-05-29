@@ -15,6 +15,18 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
     <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
     <PackageReference Include="coverlet.collector" Version="3.2.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.9.1" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="113.0.5672.6300" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\Models\" />
+    <Folder Include="Core\Wrappers\" />
+    <Folder Include="Core\Utilites\Configuration\" />
+    <Folder Include="Core\Utilites\Helpers\" />
+    <Folder Include="Soucedemo\BaseEntities\" />
+    <Folder Include="Soucedemo\Tests\" />
+    <Folder Include="Soucedemo\Pages\" />
   </ItemGroup>
 
 </Project>
