@@ -9,7 +9,7 @@ namespace TMS_Soucedemo.Soucedemo.Pages
         private static readonly By UsernameInputBy = By.Id("user-name");
         private static readonly By PasswordInputBy = By.Id("password");
         private static readonly By LoginButtonBy = By.Id("login-button");
-        private static readonly By ErrorMessageBy = By.ClassName("error-button");
+        private static readonly By ErrorMessageBy = By.XPath("//*[@data-test='error']");
 
         public LoginPage(IWebDriver? driver, bool openPageByUrl) : base(driver, openPageByUrl)
         {
@@ -64,18 +64,12 @@ namespace TMS_Soucedemo.Soucedemo.Pages
             return new InventoryPage(Driver);
         }
 
-        public LoginPage LoginWithoutPassword(User user)
+        public LoginPage LoginWithIncorrectPassword(User user)
         {
             SetUserName(user.Username);
             SetPassword(user.Password);
             ClickLoginButton();
             return this;
-        }
-
-        //private void Login (User user)
-        //{
-        //    SuccessfulLogin(user);
-        //    return new InventoryPage(Driver);
-        //}
+        }        
     }
 }

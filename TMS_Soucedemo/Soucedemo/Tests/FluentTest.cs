@@ -7,15 +7,12 @@ namespace TMS_Soucedemo
 {
     public class FluentTest : BaseTest
     {
-        public LoginPage LoginPage { get; set; }
-        public CheckoutCompletePage CheckoutCompletePage { get; set; }
+        
 
         [SetUp]
         public void Setup()
         {
-            LoginPage = new LoginPage(Driver);
-            CheckoutCompletePage = new CheckoutCompletePage(Driver);
-            LoginPage.OpenPage();
+            
         }
 
         [Test]

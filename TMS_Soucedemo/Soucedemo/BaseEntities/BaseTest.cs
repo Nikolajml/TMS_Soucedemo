@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TMS_Soucedemo.Soucedemo.Pages;
 
 namespace TMS_Soucedemo.Soucedemo.BaseEntities
 {
@@ -15,6 +16,8 @@ namespace TMS_Soucedemo.Soucedemo.BaseEntities
 
         protected static IWebDriver? Driver;
         protected WaitService? WaitService;
+        public LoginPage LoginPage { get; set; }
+        public CheckoutCompletePage CheckoutCompletePage { get; set; }
 
         [OneTimeSetUp]
         public void OneTimeSetUp()
@@ -26,6 +29,10 @@ namespace TMS_Soucedemo.Soucedemo.BaseEntities
         {
             Driver = new Browser().Driver;
             WaitService = new WaitService(Driver);
+
+            LoginPage = new LoginPage(Driver);
+            CheckoutCompletePage = new CheckoutCompletePage(Driver);
+            LoginPage.OpenPage();
         }
 
         [TearDown]
