@@ -39,7 +39,7 @@ namespace Core.Models
             return this;
         }
 
-        public UserBuilder SetZipCode(string userCode)
+        public UserBuilder SetCode(string userCode)
         {
             user.UserCode = userCode;
             return this;

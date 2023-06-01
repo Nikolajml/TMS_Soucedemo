@@ -29,13 +29,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Soucedemo\BaseEntities\" />
-    <Folder Include="Soucedemo\Pages\" />
+    <None Include="core\Core.csproj" />
+    <None Include="soucedemo\Tests.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="core\Core.csproj" />
-    <None Include="soucedemo\Tests.csproj" />
+    <None Update="Soucedemo\appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
