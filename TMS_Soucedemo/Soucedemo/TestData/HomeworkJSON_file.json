@@ -2,33 +2,33 @@
   "breakfast_menu": {
     "food": [
       {
-        "name": "Бельгийские Вафли",
+        "name": "Belgian waffles",
         "price": "$5.95",
-        "description": "две известных Бельгийских Вафли с обилием настоящего кленового сиропа",
+        "description": "two famous Belgian waffles with plenty of real maple syrup",
         "calories": 650
       },
       {
-        "name": "Бельгийские Вафли с Земляникой",
+        "name": "Belgian Waffles with Strawberries",
         "price": "$7.95",
-        "description": "легкие Бельгийские вафли с земляникой, покрытые взбитыми сливками",
+        "description": "light Belgian waffles with strawberries topped with whipped cream",
         "calories": 900
       },
       {
-        "name": "Бельгийские Вафли с Ягодами",
+        "name": "Belgian Waffles with Berries",
         "price": "$8.95",
-        "descriptions": "легкие Бельгийские вафли с различными свежими ягодами, покрытые взбитыми сливками",
+        "descriptions": "light Belgian waffles with various fresh berries topped with whipped cream",
         "calories": 900
       },
       {
-        "name": "Французский Тост",
-        "price": "$4.50",
-        "description": "толстые куски, сделанные из кусочков домашнего хлеба из опары",
-        "calories": 600
+        "name": "French Toast",
+        "price": "$8.95",
+        "descriptions": "thick pieces made from pieces of homemade sourdough bread",
+        "calories": 900
       },
       {
-        "name": "Домашний Завтрак",
+        "name": "Home Breakfast",
         "price": "$6.95",
-        "description": "пара яиц, бекон или колбаса, тост, и наши всегда популярные картофельные оладьи",
+        "description": "a couple of eggs, bacon or sausage, toast, and our ever-popular hash browns",
         "calories": 950
       }
     ]
